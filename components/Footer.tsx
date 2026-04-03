@@ -109,7 +109,27 @@ export default function Footer() {
             <ul className="space-y-4">
               <li className="flex items-start gap-3 text-white/50 text-sm">
                 <MapPin className="w-4 h-4 text-brand-green shrink-0 mt-0.5" />
-                <span>Corona Del Mar, Brgy. Pooc, Talisay, Cebu, Philippines 6045</span>
+                <div className="flex flex-col gap-2">
+                  <span>Corona Del Mar, Brgy. Pooc, Talisay, Cebu, Philippines 6045</span>
+                  <div className="flex gap-2 mt-1">
+                    <a
+                      href="https://maps.google.com/?q=10.3163,123.9344"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-xs bg-brand-green/20 text-brand-green hover:bg-brand-green hover:text-white px-2 py-1 rounded transition-colors"
+                    >
+                      Google Maps
+                    </a>
+                    <a
+                      href="https://waze.com/ul?ll=10.3163,123.9344&navigate=yes"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-xs bg-brand-green/20 text-brand-green hover:bg-brand-green hover:text-white px-2 py-1 rounded transition-colors"
+                    >
+                      Waze
+                    </a>
+                  </div>
+                </div>
               </li>
               <li className="flex items-center gap-3 text-white/50 text-sm">
                 <Mail className="w-4 h-4 text-brand-green shrink-0" />
@@ -182,7 +202,18 @@ export default function Footer() {
         {/* Bottom bar */}
         <div className="flex flex-col md:flex-row justify-between items-center gap-4 text-white/30 text-xs">
           <p suppressHydrationWarning>© {new Date().getFullYear()} GT Systems Solar Power Cebu. All rights reserved.</p>
-          <p>📍 Corona Del Mar, Brgy. Pooc, Talisay, Cebu 6045</p>
+          <div className="flex items-center gap-2">
+            <span>📍 Corona Del Mar, Brgy. Pooc, Talisay, Cebu 6045</span>
+            <a
+              href="https://maps.google.com/?q=10.3163,123.9344"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-white/50 hover:text-brand-green transition-colors"
+              title="Open in Google Maps"
+            >
+              🗺️
+            </a>
+          </div>
         </div>
       </div>
     </footer>
