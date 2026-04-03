@@ -1,0 +1,21 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm install:*)",
+      "Bash(npx next:*)",
+      "Bash(npx tsc:*)",
+      "mcp__Claude_Preview__preview_start",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\" http://localhost:56263/)",
+      "Bash(curl -s http://localhost:56263/)",
+      "Bash(curl -v http://localhost:56263/)",
+      "Bash(netstat -ano)",
+      "Bash(tasklist /FI \"PID eq 10180\")",
+      "Bash(curl -s -m 5 http://localhost:3000/)",
+      "Bash(curl -sv -m 5 http://localhost:3000/)",
+      "Bash(taskkill /PID 10180 /F)",
+      "Bash(cmd //c \"taskkill /PID 10180 /F\")",
+      "Bash(curl -s -m 10 http://localhost:3000/)",
+      "Bash(curl -s http://localhost:3000/admin/login)"
+    ]
+  }
+}
