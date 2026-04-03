@@ -21,7 +21,9 @@ export default function FloatingCTA() {
 
       {/* Viber */}
       <a
-        href="viber://chat?number=+63917000000"
+        href="viber://chat?number=%2B63917000000"
+        target="_blank"
+        rel="noopener noreferrer"
         aria-label="Chat on Viber"
         className="relative w-14 h-14 bg-[#7360f2] text-white rounded-full shadow-2xl shadow-[#7360f2]/30 flex items-center justify-center hover:scale-110 active:scale-95 transition-transform"
       >

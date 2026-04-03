@@ -152,7 +152,7 @@ export default function Footer() {
 
         {/* Bottom bar */}
         <div className="flex flex-col md:flex-row justify-between items-center gap-4 text-white/30 text-xs">
-          <p>© {new Date().getFullYear()} GT Solar Power Installation Services. All rights reserved.</p>
+          <p suppressHydrationWarning>© {new Date().getFullYear()} GT Solar Power Installation Services. All rights reserved.</p>
           <p>📍 Based in Cebu City, Visayas · Serving all of the Philippines</p>
         </div>
       </div>

@@ -41,7 +41,7 @@ export default function Hero() {
             <ArrowRight className="w-4 h-4" />
           </a>
           <a
-            href="viber://chat"
+            href="https://wa.me/63917000000"
             className="btn-secondary text-base px-8 py-4 rounded-full font-bold bg-surface-container-highest text-on-surface border border-outline-variant/30 hover:bg-surface-container-high active:scale-95 transition-all duration-200 flex items-center justify-center gap-2"
           >
             <MessageCircle className="w-4 h-4 text-brand-green" />

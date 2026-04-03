@@ -38,7 +38,9 @@ export default function FinalCTA() {
                 <ArrowRight className="w-5 h-5" />
               </a>
               <a
-                href="viber://chat"
+                href="viber://chat?number=%2B63917000000"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="bg-white/15 text-white border border-white/30 px-10 py-4 rounded-full font-bold text-lg hover:bg-white/25 transition-colors flex items-center justify-center gap-2"
               >
                 💬 Message Us on Viber

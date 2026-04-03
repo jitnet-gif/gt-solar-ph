@@ -221,7 +221,7 @@ export default function AdminDashboard({
                             {STATUS_LABELS[q.status]}
                           </span>
                         </td>
-                        <td className="px-5 py-4 text-gray-400 text-xs whitespace-nowrap">
+                        <td className="px-5 py-4 text-gray-400 text-xs whitespace-nowrap" suppressHydrationWarning>
                           {new Date(q.createdAt).toLocaleDateString('en-PH', {
                             month: 'short', day: 'numeric', year: 'numeric'
                           })}
@@ -262,7 +262,7 @@ export default function AdminDashboard({
                 ].map((row) => (
                   <div key={row.label} className="flex items-start gap-2 text-gray-600">
                     <span className="font-semibold text-gray-400 w-20 shrink-0">{row.label}</span>
-                    <span>{row.value}</span>
+                    <span suppressHydrationWarning>{row.value}</span>
                   </div>
                 ))}
               </div>
