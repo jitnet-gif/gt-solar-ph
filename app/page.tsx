@@ -8,7 +8,7 @@ import FAQSection from '@/components/FAQSection'
 import QuoteForm from '@/components/QuoteForm'
 import FinalCTA from '@/components/FinalCTA'
 import Footer from '@/components/Footer'
-import FloatingCTA from '@/components/FloatingCTA'
+import ChatbotWidget from '@/components/ChatbotWidget'
 
 export default function Home() {
   return (
@@ -25,7 +25,7 @@ export default function Home() {
         <FinalCTA />
       </main>
       <Footer />
-      <FloatingCTA />
+      <ChatbotWidget />
     </>
   )
 }
