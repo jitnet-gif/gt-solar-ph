@@ -122,6 +122,7 @@ export default function RootLayout({
         <link rel="canonical" href="https://gt-solar-ph.vercel.app" />
         <link rel="alternate" hrefLang="en-PH" href="https://gt-solar-ph.vercel.app" />
         <link rel="alternate" hrefLang="x-default" href="https://gt-solar-ph.vercel.app" />
+        <meta name="google-site-verification" content="0IoAHNvJRUFyjdbTfIKzMworq_ai_rfewNTMcBXAJmI" />
         <meta name="theme-color" content="#10B981" />
         <meta name="apple-mobile-web-app-capable" content="yes" />
         <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
