@@ -15,7 +15,18 @@
       "Bash(taskkill /PID 10180 /F)",
       "Bash(cmd //c \"taskkill /PID 10180 /F\")",
       "Bash(curl -s -m 10 http://localhost:3000/)",
-      "Bash(curl -s http://localhost:3000/admin/login)"
+      "Bash(curl -s http://localhost:3000/admin/login)",
+      "Bash(curl -s -X POST http://localhost:3000/api/quotes -H \"Content-Type: application/json\" -d '{\"\"\"\"name\"\"\"\":\"\"\"\"Test\"\"\"\",\"\"\"\"phone\"\"\"\":\"\"\"\"09171234567\"\"\"\",\"\"\"\"address\"\"\"\":\"\"\"\"Cebu\"\"\"\",\"\"\"\"monthlyBill\"\"\"\":\"\"\"\"₱5,000\"\"\"\",\"\"\"\"systemType\"\"\"\":\"\"\"\"Residential\"\"\"\"}')",
+      "Bash(curl -s -X POST http://localhost:3000/api/quotes -H \"Content-Type: application/json\" -d '{\"\"name\"\":\"\"Test User\"\",\"\"phone\"\":\"\"09171234567\"\",\"\"address\"\":\"\"Cebu City\"\",\"\"monthlyBill\"\":\"\"₱5,000 – ₱10,000\"\",\"\"systemType\"\":\"\"Residential Solar + Net Metering\"\"}')",
+      "Bash(curl -s -X POST http://localhost:3000/api/admin/login -H \"Content-Type: application/json\" -d '{\"\"password\"\":\"\"gtsolar2025\"\"}' -c /tmp/cookie.txt)",
+      "Bash(curl -s http://localhost:3000/api/admin/quotes -H \"Content-Type: application/json\" -b /tmp/cookie.txt)",
+      "mcp__f4d5c65c-c900-40dc-a6b4-c02d74559500__deploy_to_vercel",
+      "Bash(npx vercel:*)",
+      "mcp__f4d5c65c-c900-40dc-a6b4-c02d74559500__list_teams",
+      "mcp__f4d5c65c-c900-40dc-a6b4-c02d74559500__list_projects",
+      "mcp__f4d5c65c-c900-40dc-a6b4-c02d74559500__list_deployments",
+      "Bash(curl -X POST http://localhost:3000/api/quotes -H \"Content-Type: application/json\" -d '{\"\"name\"\":\"\"Test User\"\",\"\"phone\"\":\"\"09123456789\"\",\"\"address\"\":\"\"Cebu\"\"}')",
+      "mcp__f4d5c65c-c900-40dc-a6b4-c02d74559500__get_deployment"
     ]
   }
 }
