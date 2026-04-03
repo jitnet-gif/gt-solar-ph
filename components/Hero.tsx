@@ -16,7 +16,7 @@ export default function Hero() {
         <h1 className="font-headline text-5xl md:text-6xl lg:text-7xl font-extrabold leading-[1.08] tracking-tight text-on-surface">
           Stop Paying{' '}
           <span className="text-brand-green italic">₱12,000</span>{' '}
-          a Month to Meralco.
+          a Month to Veco.
           <br />
           <span className="text-on-surface/40 font-semibold text-4xl md:text-5xl lg:text-6xl">
             Start Owning Your Energy.
