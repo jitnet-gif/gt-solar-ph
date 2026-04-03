@@ -1,7 +1,8 @@
 'use client'
 
 import { useState, useEffect } from 'react'
-import { Menu, X, Sun } from 'lucide-react'
+import { Menu, X } from 'lucide-react'
+import Image from 'next/image'
 
 const navLinks = [
   { label: 'Home', href: '#' },
@@ -32,8 +33,8 @@ export default function Navbar() {
       <div className="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
         {/* Logo */}
         <a href="#" className="flex items-center gap-2 group">
-          <div className="w-9 h-9 bg-brand-green rounded-full flex items-center justify-center shadow-lg shadow-brand-green/30 group-hover:scale-110 transition-transform">
-            <Sun className="w-5 h-5 text-white" strokeWidth={2.5} />
+          <div className="w-9 h-9 rounded-full overflow-hidden shadow-lg shadow-brand-green/30 group-hover:scale-110 transition-transform border-2 border-brand-green/30">
+            <Image src="/SOLAR.jpg" alt="GT Solar Logo" width={36} height={36} className="object-cover w-full h-full" />
           </div>
           <span className="text-xl font-black text-on-surface tracking-tight">
             GT Solar<span className="text-brand-green">PH</span>

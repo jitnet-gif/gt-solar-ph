@@ -2,7 +2,8 @@
 
 import { useState } from 'react'
 import { useRouter } from 'next/navigation'
-import { Sun, Lock } from 'lucide-react'
+import { Lock } from 'lucide-react'
+import Image from 'next/image'
 
 export default function AdminLoginPage() {
   const router = useRouter()
@@ -36,8 +37,8 @@ export default function AdminLoginPage() {
       <div className="w-full max-w-sm">
         {/* Logo */}
         <div className="flex items-center justify-center gap-3 mb-10">
-          <div className="w-12 h-12 bg-brand-green rounded-full flex items-center justify-center shadow-lg shadow-brand-green/30">
-            <Sun className="w-6 h-6 text-white" strokeWidth={2.5} />
+          <div className="w-12 h-12 rounded-full overflow-hidden shadow-lg shadow-brand-green/30 border-2 border-brand-green/40">
+            <Image src="/SOLAR.jpg" alt="GT Solar Logo" width={48} height={48} className="object-cover w-full h-full" />
           </div>
           <div>
             <p className="text-white font-black text-xl leading-none">

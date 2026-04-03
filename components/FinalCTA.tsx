@@ -48,14 +48,18 @@ export default function FinalCTA() {
             </div>
 
             {/* Trust footer */}
-            <div className="mt-14 flex flex-wrap justify-center gap-6 text-white/60 text-sm font-semibold">
+            <div className="mt-14 flex flex-wrap justify-center gap-4 text-white/60 text-sm font-semibold">
               <span>🏆 Huawei FusionSolar Certified</span>
               <span>·</span>
               <span>📋 DOE Registered</span>
               <span>·</span>
               <span>500+ Projects Completed</span>
               <span>·</span>
-              <span>📍 Based in Cebu — Serving All of Visayas and Beyond</span>
+              <span>📍 Talisay, Cebu — Serving All of Visayas</span>
+              <span>·</span>
+              <a href="mailto:gtsystemsph@gmail.com" className="hover:text-white transition-colors">
+                ✉️ gtsystemsph@gmail.com
+              </a>
             </div>
           </div>
         </div>

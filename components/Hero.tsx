@@ -73,7 +73,7 @@ export default function Hero() {
           <div className="absolute inset-0 rounded-full overflow-hidden border-8 border-surface-container-low shadow-2xl">
             <Image
               src="https://lh3.googleusercontent.com/aida-public/AB6AXuAQOC_geBPjFUqvgh7H_rF5w6iXeDoWWbKsN7mRcIyjpNlJNzAE7EUX3Q4I29pDHOSV5yR4wOc7c4A6_LOWLGjpOQOZ9ILXOUC4SO8PVvRis72e1P6mrRIMTbIHshkRDBwHdtzZh9hEDYhthr35gy1tPNZhx_o79AJhaKOweUawOknw7x3oBkHQgm-yllHcYvDk_UaO68djVtmnN70tWBpMAKbVpopZ55xiR6UYrbiVTI6vt1tufwUQDGnkbHayXhlWGBAUKfdxkfSn"
-              alt="Modern rooftop solar panel installation on a Filipino home"
+              alt="Solar panel rooftop installation — GT Solar PH"
               fill
               className="object-cover"
               priority

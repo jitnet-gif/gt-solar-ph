@@ -3,9 +3,10 @@
 import { useState } from 'react'
 import { useRouter } from 'next/navigation'
 import {
-  Sun, LogOut, Users, Zap, CheckCircle, TrendingUp,
+  LogOut, Users, Zap, CheckCircle, TrendingUp,
   Search, RefreshCw, ChevronDown, Trash2, FileText
 } from 'lucide-react'
+import Image from 'next/image'
 import { STATUS_LABELS, STATUS_COLORS } from '@/lib/types'
 import type { QuoteStatus } from '@/lib/types'
 
@@ -99,8 +100,8 @@ export default function AdminDashboard({
       {/* Top nav */}
       <header className="bg-darkest-green text-white px-6 py-4 flex items-center justify-between shadow-lg">
         <div className="flex items-center gap-3">
-          <div className="w-9 h-9 bg-brand-green rounded-full flex items-center justify-center">
-            <Sun className="w-5 h-5 text-white" strokeWidth={2.5} />
+          <div className="w-9 h-9 rounded-full overflow-hidden border-2 border-brand-green/40">
+            <Image src="/SOLAR.jpg" alt="GT Solar Logo" width={36} height={36} className="object-cover w-full h-full" />
           </div>
           <div>
             <p className="font-black text-base leading-none">
